@@ -15,6 +15,7 @@
    $leftPart = trim($parts[0]); 
    $rightPart = trim($parts[1]); 
    
+   
    echo $uravnenie. "<br>" ; 
 
         if (strpos($uravnenie, '+') !== false) {
