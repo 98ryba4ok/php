@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.gridScreen {
+  grid-column: 1 / span 4;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1.5em;
+  text-align: right;
+  border: none;
+  background-color: #f5f5f5;
+  box-shadow: inset 0px 0px 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.button_number {
+  font-size: 1.2em;
+  padding: 15px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button_number:hover {
+  background-color: #eee;
+}
+
+.button_sing {
+  font-size: 1.2em;
+  padding: 15px;
+  border: none;
+  background-color:#c2c5ab ;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.button_sing:hover {
+  background-color: #ced3af;
+}
+
+/* Added CSS to fix button alignment */
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+#clean {
+  grid-column: 1 / span 2;
+  background-color: #c2c5ab;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#count {
+  grid-column: 3 / span 2;
+  background-color: #c2c5ab;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#clean:hover{
+  background-color: #ced3af;
+}
+#count:hover{
+  background-color: #ced3af;
+}
+
